@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.white-txt {
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4px 4px;
+}
+
+.font-russo {
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+h1,
+h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 78px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 31px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#rosso {
+    background-color: #FE0202;
+}
+
+#grigio {
+    background-color: #59BC98;
+}
+
+#blu {
+    background-color: #2594D2;
+}
+
+#verde {
+    background-color: #72BC59;
+}
+
+#rosa {
+    background-color: #BC59A0;
+}
+
+#giallo {
+    background-color: #DCF63C;
+}
+
+a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.Li:hover {
+    border: 3px solid black;
+    padding: 2px;
+}
